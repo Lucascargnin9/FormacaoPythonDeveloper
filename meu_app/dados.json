@@ -1,5 +1,0 @@
-[
-    {"id": 1, "nome": "João", "idade": 25, "cidade": "São Paulo", "pais": "Brasil"},
-    {"id": 2, "nome": "Maria", "idade": 30, "cidade": "Rio de Janeiro", "pais": "Brasil"},
-    {"id": 3, "nome": "Carlos", "idade": 28, "cidade": "Belo Horizonte", "pais": "Brasil"}
-]
