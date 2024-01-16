@@ -4,12 +4,17 @@ import json
 app = Flask(__name__)
 
 devs = [
-    {'nome': 'Lucas',
-     'habilidades': ['Python', 'Flask']},
-    {'nome': 'Rafael',
-     'habilidades': ['Python', 'Django']}
+    {
+        'id': '0',
+        'nome': 'Lucas',
+        'habilidades': ['Python', 'Flask']},
+    {
+        'id': 1,
+        'nome': 'Rafael',
+        'habilidades': ['Python', 'Django']}
 ]
-#devolve um dev pelo ID, tambem altera e deleta um dev
+
+# devolve um dev pelo ID, tambem altera e deleta um dev
 @app.route('/dev<int:id>/', methods=['GET', 'PUT', 'DELETE'])
 def dev(id):
     if request.method == 'GET':
